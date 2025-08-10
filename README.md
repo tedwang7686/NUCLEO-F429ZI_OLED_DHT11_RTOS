@@ -1,7 +1,7 @@
 
 # Temp&Humi Display Display: STM32 NUCLEO-F429ZI RTOS Temperature & Humidity OLED Project
 
-This project demonstrates how to use the STM32 NUCLEO-F429ZI board with a DHT11 temperature & humidity sensor and a 128x64 OLED (I2C, u8g2 driver), leveraging CMSIS-RTOS v2 (FreeRTOS) for professional multitasking display. The codebase is modular, supporting real-time sensor display, animation, QR code, and info screen switching, with high maintainability and extensibility.
+This project demonstrates how to use the STM32 NUCLEO-F429ZI board with a DHT11 temperature & humidity sensor and a 128x64 OLED (I2C, u8g2 driver), leveraging CMSIS-RTOS v2 (FreeRTOS) for professional multitasking display. The codebase is modular.
 
 ## Features
 - **Hardware**: STM32 NUCLEO-F429ZI, DHT11 sensor, OLED (I2C, PB8/PB9)
@@ -53,7 +53,7 @@ NUCLEO-F429ZI_OLED_DHT11_RTOS/
 
 ## Advanced Features
 - **Doxygen Documentation**: All core code is documented with professional English Doxygen comments
-- **Extensible**: Easily add new display modes, animations, sensors, etc.
+// ...existing code...
 - **Error Handling**: UART3 outputs error messages; queue/task creation failure triggers Error_Handler
 
 ## License
